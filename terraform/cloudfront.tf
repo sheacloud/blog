@@ -78,6 +78,11 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
             restriction_type = "none"
         }
     }
+
+    logging_config {
+        bucket = aws_s3_bucket.logs.bucket_domain_name
+      include_cookies = true
+    }
 }
 
 resource "aws_cloudfront_monitoring_subscription" "s3_distribution" {
