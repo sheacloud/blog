@@ -1,0 +1,10 @@
+baseurl: "https://sheacloud.com/"
+title: "SheaCloud Blog"
+
+deployment:
+  targets:
+    - name: "east"
+      url: "s3://sheacloud-blog-content-prod-us-east-1?region=us-east-1"
+      cloudFrontDistributionID: "EQPQOONYPCSN4"
+    - name: "west"
+      url: "s3://sheacloud-blog-content-prod-us-west-2?region=us-west-2"

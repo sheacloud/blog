@@ -1,0 +1,62 @@
+defaultContentLanguage: en
+languageCode: en
+theme: LoveIt
+params:
+  version: 0.2.X
+  page:
+    comment:
+      enable: true
+      utterances:
+        enable: true
+        repo: sheacloud/blog
+        issueTerm: pathname
+        label: ''
+        lightTheme: github-light
+        darkTheme: github-dark
+  home:
+    profile:
+      title: Jon Shea's Blog
+      subtitle: posts about Go, AWS, and random technical tinkering
+      typeit: true
+      enable: true
+      social: true
+  social:
+    GitHub: sheacloud
+    Linkedin: jonathan-shea-847932102/
+    Gitlab: jon.shea
+    Email: jon@sheacloud.com
+    RSS: true
+menu:
+  main:
+    - identifier: posts
+      pre: ''
+      post: ''
+      name: Posts
+      url: /posts/
+      title: ''
+      weight: 1
+    - identifier: about
+      name: About Me
+      url: /about/
+      title: ''
+      weight: 2
+    - identifier: tags
+      pre: ''
+      post: ''
+      name: Tags
+      url: /tags/
+      title: ''
+      weight: 2
+    - identifier: categories
+      pre: ''
+      post: ''
+      name: Categories
+      url: /categories/
+      title: ''
+      weight: 3
+author:
+  name: Jonathan Shea
+  email: jon@sheacloud.com
+markup:
+  highlight:
+    noClasses: false
