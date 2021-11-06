@@ -2,8 +2,9 @@
 title: "About"
 date: 2021-11-05T14:46:12-04:00
 draft: false
-comments: false
 showtoc: false
+comment:
+    enable: false
 ---
 
 # About Me
